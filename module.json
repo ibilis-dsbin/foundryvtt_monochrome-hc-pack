@@ -1,0 +1,160 @@
+{
+  "id": "monochrome-hc-pack",
+  "title": "Monochrome HC Pack",
+  "version": "1.0.0",
+  "manifest": "https://github.com/ibilis-dsbin/foundryvtt_monochrome-hc-pack/releases/latest/download/module.json",
+  "download": "https://github.com/ibilis-dsbin/foundryvtt_monochrome-hc-pack/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Darth Dahn the Indifferent",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "DD-Gen-Roll-Chart",
+      "label": "General Roll Charts",
+      "path": "packs/DD-Gen-Roll-Chart",
+      "type": "RollTable",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "racial-abilities",
+      "label": "Racial Abilities",
+      "path": "packs/racial-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spell-schools-and-domains",
+      "label": "Spell Schools and Domains",
+      "path": "packs/spell-schools-and-domains",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "class-abilities",
+      "label": "Class Abilities",
+      "path": "packs/class-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "dd-image-pack",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "action": "manageModule",
+  "description": ""
+}
