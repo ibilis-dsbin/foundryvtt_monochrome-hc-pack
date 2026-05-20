@@ -151,6 +151,7 @@
       {
         "id": "dd-image-pack",
         "type": "module",
+        "manifest": "https://github.com/ibilis-dsbin/foundryvtt_dd-image-pack/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]
