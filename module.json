@@ -143,6 +143,18 @@
       "label": "Journal Supplement",
       "path": "packs/journal-supplement",
       "type": "JournalEntry",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "shop-items",
+      "label": "Shop Items",
+      "path": "packs/shop-items",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
