@@ -155,6 +155,42 @@
       "label": "Shop Items",
       "path": "packs/shop-items",
       "type": "Item",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feat-items",
+      "label": "Feat Items",
+      "path": "packs/feat-items",
+      "type": "Item",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "common-buffs",
+      "label": "Common Buffs",
+      "path": "packs/common-buffs",
+      "type": "Item",
+      "system": "D35E",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "active-effects",
+      "label": "Active Effects",
+      "path": "packs/active-effects",
+      "type": "ActiveEffect",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -180,6 +216,13 @@
       },
       {
         "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dd-my-books",
         "type": "module",
         "compatibility": {}
       }
